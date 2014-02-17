@@ -19,6 +19,7 @@
 		1567E48F18B2A0DA00499481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1567E47718B2A0D900499481 /* UIKit.framework */; };
 		1567E49718B2A0DA00499481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1567E49518B2A0DA00499481 /* InfoPlist.strings */; };
 		1567E49918B2A0DA00499481 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567E49818B2A0DA00499481 /* HypnosisterTests.m */; };
+		1567E4A418B2B1A300499481 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1567E4A318B2B1A300499481 /* BNRHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		1567E49418B2A0DA00499481 /* HypnosisterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisterTests-Info.plist"; sourceTree = "<group>"; };
 		1567E49618B2A0DA00499481 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1567E49818B2A0DA00499481 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		1567E4A218B2B1A300499481 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRHypnosisView.h; path = Hypnosister/BNRHypnosisView.h; sourceTree = "<group>"; };
+		1567E4A318B2B1A300499481 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRHypnosisView.m; path = Hypnosister/BNRHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		1567E46718B2A0D900499481 = {
 			isa = PBXGroup;
 			children = (
+				1567E4A218B2B1A300499481 /* BNRHypnosisView.h */,
+				1567E4A318B2B1A300499481 /* BNRHypnosisView.m */,
 				1567E47918B2A0D900499481 /* Hypnosister */,
 				1567E49218B2A0DA00499481 /* HypnosisterTests */,
 				1567E47218B2A0D900499481 /* Frameworks */,
@@ -242,6 +247,7 @@
 			files = (
 				1567E48018B2A0DA00499481 /* main.m in Sources */,
 				1567E48418B2A0DA00499481 /* BNRAppDelegate.m in Sources */,
+				1567E4A418B2B1A300499481 /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
